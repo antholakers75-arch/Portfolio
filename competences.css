@@ -1,0 +1,123 @@
+/* Style moderne pour le portfolio d'Anthony Brazeau */
+
+/* Reset et typographie */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #eaeaea; color: #333; line-height: 1.6; }
+
+/* Header */
+header { background: linear-gradient(135deg, #4e54c8, #8f94fb); color: #fff; padding: 40px 20px; text-align: center; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; }
+header h1 { font-size: 2.5em; margin-bottom: 10px; }
+header p { font-size: 1.2em; color: #f0f0f0; }
+
+/* Navigation */
+nav { display: flex; justify-content: center; gap: 25px; margin: 25px 0; }
+nav a { text-decoration: none; color: #4e54c8; font-weight: 600; padding: 10px 15px; border-radius: 10px; transition: all 0.3s ease; }
+nav a:hover { background: #4e54c8; color: #fff; }
+
+.home-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #fff3e0, #ffffff);  
+  padding: 50px 20px;
+}
+
+.home-content {
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: justify;
+  line-height: 1.8;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-content h1 {
+  text-align: center;
+  color: #FF7F50;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.home-content h2 {
+  color: #FF7F50;
+  font-size: 1.2em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.home-content ul {
+  list-style-type: "-";
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.etape {
+  margin-top: 30px;
+  background-color: #fff3e0;
+  border-left: 4px solid #ff8c42;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.competences {
+  max-width: 800px;
+  margin: 60px auto;
+  
+  
+    font-family: "Poppins", sans-serif;
+  color: #333;
+  line-height: 1.8;
+}
+
+.competences h2 {
+  color: #ff8c42; /* orange doux */
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2em;
+}
+
+.competences ul {
+  padding-left: 20px;
+}
+
+.competences li {
+  margin-bottom: 12px;
+  text-align: justify;
+}
+.synthese {
+  text-align: center;      /* centre le texte et l'image */
+  margin: 40px auto;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.synthese p {
+  color: #ff8c42;
+  font-size: 2em;
+  margin-bottom: 20px;     /* espace entre la phrase et l'image */
+  font-weight: bold;       /* optionnel : mettre la phrase en gras */
+
+}
+
+/* Pied de page */
+footer {
+  text-align: center;
+  padding: 60px ;
+  background: #3600EB;
+  color: white;
+  font-size: 14px;
+}
+footer p:first-child {
+  margin-bottom: 10px;
+}
+footer p:middle-child {
+  margin-bottom: 10px;
+}

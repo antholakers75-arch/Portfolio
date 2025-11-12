@@ -1,0 +1,62 @@
+/* Style moderne pour le portfolio d'Anthony Brazeau */
+
+/* Reset et typographie */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #eaeaea; color: #333; line-height: 1.6; }
+
+/* Header */
+header { background: linear-gradient(135deg, #4e54c8, #8f94fb); color: #fff; padding: 40px 20px; text-align: center; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; }
+header h1 { font-size: 2.5em; margin-bottom: 10px; }
+header p { font-size: 1.2em; color: #f0f0f0; }
+
+/* Navigation */
+nav { display: flex; justify-content: center; gap: 25px; margin: 25px 0; }
+nav a { text-decoration: none; color: #4e54c8; font-weight: 600; padding: 10px 15px; border-radius: 10px; transition: all 0.3s ease; }
+nav a:hover { background: #4e54c8; color: #fff; }
+
+h2 { margin-top:0; }
+.diplomes {
+  display: flex;
+  justify-content: center;    /* centre horizontalement */
+  align-items: center;        /* centre verticalement */
+  /*min-height: 80vh;            occupe une grande partie de la hauteur */
+  text-align: justify;
+  background-color: #e8f5e9;  /* vert très clair (fond hors du cadre) */
+  padding: 50px 0;            /* espace autour du cadre */
+}
+
+.cadre {
+  border: none;               /* enlève la bordure colorée */
+  border-radius: 15px;        /* coins arrondis */
+  padding: 30px 50px;         /* espace intérieur du cadre */
+  background-color: #ffffff;  /* fond blanc du cadre */
+  max-width: 900px;           /* limite la largeur */
+  line-height: 1.6;           /* lisibilité */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* ombre douce autour du cadre */
+}
+
+.diplomes h1 {
+  margin-bottom: 30px;
+  color: #2E8B57;            
+   text-align: center;
+}
+
+.diplomes p {
+  margin-bottom: 25px;        /* espace entre les paragraphes */
+  line-height: 1.5;
+}
+footer { text-align:center; padding:20px; color:#555; }
+/* Pied de page */
+footer {
+  text-align: center;
+  padding: 60px ;
+  background: #3600EB;
+  color: white;
+  font-size: 14px;
+}
+footer p:first-child {
+  margin-bottom: 10px;
+}
+footer p:middle-child {
+  margin-bottom: 10px;
+}
